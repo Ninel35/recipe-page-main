@@ -1,5 +1,5 @@
 :root{
-  --primary-bg-color: rgba(234, 231, 183, 0.822);
+  --primary-bg-color: hsla(11, 16%, 79%, 0.831);
 
   --primary-color:  rgba(20, 2, 7, 0.858);
 }
@@ -40,4 +40,15 @@ p{
   margin: 0px;
   text-align:left;
  
+}
+.preparation{
+  background-color:hsla(332, 34%, 69%, 0.925);
+  width: 80%;
+  padding: 15px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.instruction{
+ list-style:square;
+
 }
