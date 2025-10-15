@@ -1,5 +1,5 @@
 :root{
-  --primary-bg-color: hsla(336, 13%, 92%, 0.925);
+  --primary-bg-color: hsla(22, 33%, 86%, 0.954);
 
   --primary-color:  hsl(30, 10%, 34%);
 
@@ -8,7 +8,7 @@
 }
 
 body {
-   
+   background-color: var(--primary-bg-color);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,9 @@ body {
 
 }
 .main-container{
- background-color: var(--primary-bg-color);
-    width: 320px;
+ /* background-color: var(--primary-bg-color); */
+ background-color: white;
+    min-width: 320px;
     height: 100%;
 }
 img{
@@ -52,28 +53,44 @@ h2{
 h3{
   color: hsl(332, 51%, 32%);
 }
+li{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+::marker{
+  color: var(--header-color);
+  font-weight: 800;
+  
+  
+}
 .preparation{
-  background-color:hsla(332, 17%, 81%, 0.925);
+  background-color:hsl(330, 100%, 98%);
   border-radius: 10px;
   width: 80%;
   padding-top: 5px;
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 8px;
   padding-right: 10px;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 18px;
+}
+.preparation ul{
+padding-left: 25px;
 }
 .instruction{
  
 
 }
-.instruction-container{
+/* .instruction-container{
   width: 90%;
   border: 1px solid;
 border-left-style: none;
 border-right-style: none;
-margin-left: 15px;
-}
+margin-left: 10px;
+margin-left: auto;
+margin-right: auto;
+} */
 
 .text-nutrition{
   padding-left: 22px;
