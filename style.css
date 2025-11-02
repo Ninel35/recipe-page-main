@@ -87,9 +87,9 @@ h3{
 ::marker{
   color: var(--header-color);
   font-weight: 800;
-  
-  
 }
+
+
 .preparation{
   background-color:hsl(330, 100%, 98%);
   border-radius: 10px;
@@ -105,17 +105,18 @@ h3{
 padding-left: 25px;
 }
 
+
 li{
   padding-left: 15px;
 }
 
 ul li{
   line-height: 30px;
+ 
 }
 ol li{
   line-height: 25px;
-  padding-right: 10px;
-  text-align: left;
+  padding-right: 30px;
 }
 
 .text-nutrition{
